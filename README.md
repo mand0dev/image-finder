@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Image Finder with ReactJS and Unsplash API
 
 This is a simple image search application using the Unsplash.com API.
 
