@@ -2,12 +2,10 @@ import React from 'react';
 
 const ImageContent = ( {val} ) => {
 
-    const { urls, alt_description, links } = val;
+    const { urls, alt_description } = val;
 
     return(
-        <a href={links.download}>
-            <img src={urls.small} alt={alt_description}/>
-        </a>
+        <img src={urls.small} alt={alt_description}/>
     );
 
 }
